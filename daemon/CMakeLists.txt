@@ -12,7 +12,7 @@ target_link_libraries(spacebar-daemon
     KF5::Notifications
     TelepathyQt5::Core
     database
-    tputils
+    kTelephonySupport
 )
 
 install(TARGETS spacebar-daemon DESTINATION ${KDE_INSTALL_FULL_LIBEXECDIR})
